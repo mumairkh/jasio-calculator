@@ -84,7 +84,6 @@ h1 {
 }
 
 .display {
-    height: 80px;
     box-shadow: 1px -1px 6px lightgray inset;
     border: 1px solid lightgrey;
     border-top: 3px solid lightgrey;
@@ -93,7 +92,7 @@ h1 {
     margin-bottom: 10px;
     margin-top: 15px;
     text-align: right;
-    padding: 8px;
+    padding: 4px;
     font-family: digital;
 }
 
@@ -107,7 +106,7 @@ h1 {
 
 #input {
     width: 100%;
-    height: 27px;
+    height: 30px;
     white-space: nowrap;
     font-size: 25px;
     overflow: hidden;
@@ -117,6 +116,7 @@ h1 {
 #result {
     width: 100%;
     font-size: 45px;
+    height: 50px;
     overflow: hidden;
     padding: 2px;
 }
