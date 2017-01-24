@@ -106,7 +106,6 @@ h1 {
 }
 
 #input {
-    height: 35px;
     width: 100%;
     white-space: nowrap;
     font-size: 25px;
@@ -115,6 +114,7 @@ h1 {
 }
 
 #result {
+    width: 100%;
     font-size: 45px;
     overflow: hidden;
     padding: 2px;
