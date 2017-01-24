@@ -111,11 +111,13 @@ h1 {
     white-space: nowrap;
     font-size: 25px;
     overflow: hidden;
+    padding: 2px;
 }
 
 #result {
     font-size: 45px;
     overflow: hidden;
+    padding: 2px;
 }
 
 button:nth-child(1),
