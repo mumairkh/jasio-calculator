@@ -73,6 +73,8 @@ h1 {
     margin-top: 25px;
     padding: 10px;
     text-align: center;
+    transition: all 1s;
+    -webkit-transition: all 1s;
 }
 
 .calc-body p {
