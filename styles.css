@@ -15,10 +15,17 @@
         width: 92% !important;
         margin: 0 !important;
     }
+    h1 {
+        font-size: 20px;
+    }
     .calc-body p {
         display: block !important;
+        font-size: 12px;
         margin: 1px;
         padding: 1px;
+    }
+    .display {
+        padding: 4px;
     }
     footer {
         display: none;
