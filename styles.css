@@ -147,6 +147,10 @@ button {
     font-family: 'Ubuntu', sans-serif;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 button:focus {
     outline: 0;
 }
