@@ -7,7 +7,8 @@ var decimal = false;
 var operators = ['÷', '×', '-', '+'];
 var value = "";
 buttons.forEach(function (el) {
-    el.onclick = function () {
+    el.onclick = function (e) {
+        e.preventDefault();
         var lastOperator = value.charAt(value.length - 2);
         var firstOperator = value.charAt(1);
         var lastChar = value.charAt(value.length - 1);
