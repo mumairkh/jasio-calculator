@@ -6,8 +6,8 @@ var buttons = document.querySelectorAll('button');
 var decimal = false;
 var operators = ['÷', '×', '-', '+'];
 var value = "";
-buttons.forEach(function (el) {
-    el.onclick = function (e) {
+for (i = 0; i < buttons.length; i++) {
+    buttons[i].onclick = function (e) {
         e.preventDefault();
         var lastOperator = value.charAt(value.length - 2);
         var firstOperator = value.charAt(1);
@@ -80,7 +80,7 @@ buttons.forEach(function (el) {
             input.innerHTML = value;
         }
     };
-});
+};
 window.onkeydown = function (event) {
     var x = event.which;
     switch (x) {
