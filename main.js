@@ -6,7 +6,7 @@ var buttons = document.querySelectorAll('button');
 var decimal = false;
 var operators = ['÷', '×', '-', '+'];
 var value = "";
-for (i = 0; i < buttons.length; i++) {
+for (var i = 0; i < buttons.length; i++) {
     buttons[i].onclick = function (e) {
         e.preventDefault();
         var lastOperator = value.charAt(value.length - 2);
